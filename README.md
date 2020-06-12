@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Agenda Hotel (agenda-hotel)
 
 Sistema de agendamento para hotel
@@ -28,4 +27,3 @@ See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 =======
 # agenda-hotel
 Sistema de agendamento para hotel
->>>>>>> 72898a799e4ce6dc8335c9e219b7887611e22088
