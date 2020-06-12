@@ -1,13 +1,13 @@
 # Agenda Hotel (agenda-hotel)
 
-Sistema de agendamento para hotel
+Sistema de agendamento para hotel - Feito com Quasar Framework
 
-## Install the dependencies
+## Instalar dependencias
 ```bash
 yarn
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Iniciar no modo de desenvolvimento (hot-code reloading, error reporting, etc.)
 ```bash
 quasar dev
 ```
@@ -17,13 +17,10 @@ quasar dev
 yarn run lint
 ```
 
-### Build the app for production
+### Construir para producao
 ```bash
 quasar build
 ```
 
-### Customize the configuration
+### Customizar
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
-=======
-# agenda-hotel
-Sistema de agendamento para hotel
