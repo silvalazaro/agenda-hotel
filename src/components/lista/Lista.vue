@@ -39,7 +39,7 @@
           <div class="text-h6">Cadastro</div>
         </q-card-section>
         <q-card-section class="q-pt-none">
-          <formulario :fields="fields">
+          <formulario :atributos="atributos">
           </formulario>
          </q-card-section>
         <q-card-actions align="right">
@@ -63,13 +63,12 @@ export default {
   components: {
     Formulario
   },
-  props: ['columns', 'data'],
+  props: ['columns', 'data', 'atributos'],
   data () {
     return {
       selected: [],
       filter: '',
-      formulario: false,
-      fields: ['cpf']
+      formulario: false
     }
   },
   methods: {

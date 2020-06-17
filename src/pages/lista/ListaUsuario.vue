@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <lista :columns="columns" :data="usuarios">
+    <lista :columns="columns" :data="usuarios" :atributos="atributos">
     </lista>
   </q-page>
 </template>
@@ -39,6 +39,22 @@ export default {
       }, {
         name: 'versao',
         label: 'Versao'
+      }],
+      atributos: [{
+        name: 'id',
+        label: 'Id',
+        type: 'int'
+      }, {
+        name: 'nome',
+        label: 'Nome'
+      }, {
+        name: 'ativo',
+        label: 'Ativo',
+        type: 'boolean'
+      }, {
+        name: 'versao',
+        label: 'Versao',
+        type: 'int'
       }]
     }
   }

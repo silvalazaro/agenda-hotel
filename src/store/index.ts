@@ -3,6 +3,8 @@ import Vuex from 'vuex'
 
 // importa modulos
 import usuario from './usuario'
+import empresa from './negocio/empresa'
+import listaTema from './app/lista-tema'
 // import { ExampleStateInterface } from './module-example/state';
 
 /*
@@ -22,7 +24,9 @@ export default store(function ({ Vue }) {
 
   const Store = new Vuex.Store<StoreInterface>({
     modules: {
-      usuario
+      usuario,
+      empresa,
+      listaTema
     },
 
     // enable strict mode (adds overhead!)
